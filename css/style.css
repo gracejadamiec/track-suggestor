@@ -1,8 +1,27 @@
 body {
   color: #00b3b4;
+  padding-bottom: 50px;
 }
 
 button {
   background-color: #adc4cc;
   color: #D75C37;
+}
+h2 {
+  text-align: center;
+}
+
+nav {
+  background-color: #c7c7c7;
+}
+
+.container {
+    background-color: #F5F5F6;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.jumbotron {
+  background-color: #fce4ec;
 }

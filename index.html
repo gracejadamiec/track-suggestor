@@ -9,62 +9,62 @@
   </head>
 
   <body>
+    <nav class="navbar">
+      <span class="navbar-brand"></span>
+    </nav>
+    <div class="jumbotron">
+      <h2>Which track at Epicodus is for you, lets find out!</h2>
+    </div>
     <div class="container">
       <form>
-        <h2>Which Track is Right for You?</h2>
-        <br>
-
         <h4>Question one</h4>
-          <!-- <p>Do you want to make sites and apps feel and look well?</p> -->
+          <p>Do you want to make sites and apps feel and look well?</p>
           <div class="radio">
             <label>
-              <input type="radio" name="one" value="designYes">
-              Yes
+              <input type="radio" name="one" value="designYes"> Yes
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="one" value="designNo">
-              No
+              <input type="radio" name="one" value="designNo"> No
             </label>
           </div>
         <h4>Question two</h4>
-          <!-- <p>Is your dream job at an enterprise-level company, as an Android developer, or in high-performance applications? Java</p> -->
+          <p>Is your dream job at an enterprise-level company, as an Android developer, or in high-performance applications? Java</p>
           <div class="radio">
             <label>
-            <input type="radio" name="two" value="javaYes">True
+            <input type="radio" name="two" value="javaYes"> Yes
             </label>
           </div>
           <div class="form-check">
             <label>
-            <input type="radio" name="two" value="JavaNo">False
+            <input type="radio" name="two" value="JavaNo"> No
             </label>
           </div>
 
         <h4>Question three</h4>
-          <!-- <p>Do you want to build websites for lots of clients, or maintain the security and stability of a huge complex of government?PHP</p> -->
+          <p>Do you want to build websites for lots of clients, or maintain the security and stability of a huge complex of government?PHP</p>
           <div class="radio">
             <label>
-              <input type="radio" name="three" value="phpYes">Yes
+              <input type="radio" name="three" value="phpYes"> Yes
             </label>
           </div>
           <div class="radio">
             <label>
-              <input class="no" type="radio" name="three" value="phpNo">No
+              <input class="no" type="radio" name="three" value="phpNo"> No
             </label>
           </div>
 
         <h4>Question four</h4>
-          <!-- <p>Are you interested in creating apps that involve users creating accounts, entering information, and interacting with dynamic content? Ruby</p> -->
+          <p>Are you interested in creating apps that involve users creating accounts, entering information, and interacting with dynamic content? Ruby</p>
           <div class="radio">
             <label>
-              <input type="radio" name="four" value="rubyYes">Yes
+              <input type="radio" name="four" value="rubyYes"> Yes
             </label>
           </div>
           <div class="form-check">
             <label>
-              <input type="radio" name="four" value="rubyNo">
-              No
+              <input type="radio" name="four" value="rubyNo"> No
             </label>
           </div>
 
@@ -82,9 +82,12 @@
               No, it sounds awesome!
             </label>
           </div>
+          <br>
 
         <h4>One more thing!</h4>
           <p>Please enter your name</p>
+          </br>
+          <br>
 
         <button type="button" class="btn btn-default" id="submitSurvey">Trackify Me!</button>
       </form>

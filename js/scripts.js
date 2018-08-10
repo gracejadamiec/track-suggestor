@@ -8,12 +8,4 @@ $(document).ready(function(){
 });
 
   console.log(survey);
-    // if submit is clicked, show output, and hide survey
-    //  if () {
-    //   $('survey').hide();
-    //   $('survey').show();
-    //  } else {
-    //   $('survey').hide();
-    //   $('survey').show();
-    // }
   });

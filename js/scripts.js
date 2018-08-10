@@ -1,15 +1,13 @@
 $(document).ready(function(){
-  // $("button#submitSurvey").click(function(event){
-  //   event.preventDefault();
-    // $("#submitSurvey").click(function(){
-    //   $('survey').hide();
-    // });
+  $("button").click(function(event) {
+    event.preventDefault();
+  $("form").hide("slow");
+  $("output").show;
 
-    $( "button" ).click(function() {
-  $( "form" ).hide( "slow" );
+  $('input[type="radio"]').prop('checked', false);
 });
 
-    console.log(survey);
+  console.log(survey);
     // if submit is clicked, show output, and hide survey
     //  if () {
     //   $('survey').hide();

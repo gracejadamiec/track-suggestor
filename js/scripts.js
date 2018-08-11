@@ -43,6 +43,14 @@ $(document).ready(function(){
     alert("Design");
   }
 
+  if (vPhp > vNothing && vPhp > vArt && vPhp > vJava) {
+    alert("Php");
+  }
+
+  if (vJava > vPhp && vJava > vArt && vJava > vNothing) {
+    alert("Java");
+  }
+
   console.log(vArt);
   console.log(vJava);
   console.log(vPhp);

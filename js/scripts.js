@@ -5,9 +5,9 @@ $(document).ready(function(){
   $("output").show;
 
   var vArt = 0
-  // var vJava = 0
-  // var vPhp = 0
-  // var hatescoding = 0
+  var vJava = 0
+  var vPhp = 0
+  var hatescoding = 0
 
   var design = $("input:radio[name=one]:checked").val();
   console.log(design);
@@ -22,7 +22,22 @@ $(document).ready(function(){
     vArt += 1
   }
 
+  if (java === "javaYes") {
+    vJava += 1
+  }
+
+  if (php ==="phpYes") {
+    vPhp =+ 1
+  }
+
+  if (nothing === "programingLame"){
+    hatescoding += 100
+  }
+
   console.log(vArt);
+  console.log(vJava);
+  console.log(vPhp)
+  console.log(hatescoding);
 
   $('input[type="radio"]').prop('checked', false);
 

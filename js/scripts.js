@@ -7,7 +7,7 @@ $(document).ready(function(){
   var vArt = 0
   var vJava = 0
   var vPhp = 0
-  var hatescoding = 0
+  var vNothing = 0
 
   var design = $("input:radio[name=one]:checked").val();
   console.log(design);
@@ -31,13 +31,17 @@ $(document).ready(function(){
   }
 
   if (nothing === "programingLame"){
-    hatescoding += 100
+    vNothing += 100
+  }
+
+  if (vNothing > vArt && vNothing > vJava && vNothing > vPhp) {
+    alert("Programing isn't lame! Try Retaking the Survey");
   }
 
   console.log(vArt);
   console.log(vJava);
-  console.log(vPhp)
-  console.log(hatescoding);
+  console.log(vPhp);
+  console.log(vNothing);
 
   $('input[type="radio"]').prop('checked', false);
 

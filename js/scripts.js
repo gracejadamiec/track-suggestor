@@ -19,11 +19,11 @@ $(document).ready(function(){
   console.log(nothing);
 
   if (design === "designYes") {
-    vArt += 1
+    vArt += 2
   }
 
   if (java === "javaYes") {
-    vJava += 1
+    vJava += 3
   }
 
   if (php ==="phpYes") {
@@ -36,6 +36,11 @@ $(document).ready(function(){
 
   if (vNothing > vArt && vNothing > vJava && vNothing > vPhp) {
     alert("Programing isn't lame! Try Retaking the Survey");
+  }
+
+
+  if (vArt > vJava && vArt > vNothing && vArt > vPhp) {
+    alert("Design");
   }
 
   console.log(vArt);

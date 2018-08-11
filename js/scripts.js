@@ -9,13 +9,13 @@ $(document).ready(function(){
   // var vPhp = 0
   // var hatescoding = 0
 
-  var design = $("input:radio[name=first]:checked").val();
+  var design = $("input:radio[name=one]:checked").val();
   console.log(design);
-  var java = $("input:radio[name=second]:checked").val();
+  var java = $("input:radio[name=two]:checked").val();
   console.log(java);
-  var php = $("input:radio[name=third]:checked").val();
+  var php = $("input:radio[name=three]:checked").val();
   console.log(php);
-  var nothing = $("input:radio[name=fourth]:checked").val();
+  var nothing = $("input:radio[name=four]:checked").val();
   console.log(nothing);
 
   if (design === "designYes") {

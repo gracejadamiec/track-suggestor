@@ -8,7 +8,7 @@
 
 ## Description
 
-This is a survey that helps students select a track at Epicodus through imput from some basic questions. There is some basic logic that calculated the values of inputs assigned to the "yes" radio buttons.
+This is a survey that helps students select a track at Epicodus through input from some basic questions. There is some basic logic that calculates the values of inputs assigned to the "yes" radio buttons.
 
 ## Setup/Installation Requirements
 

@@ -25,3 +25,11 @@ nav {
 .jumbotron {
   background-color: #fce4ec;
 }
+
+#cssImg {
+  display: none;
+}
+
+#javaImg {
+  display: none;
+}

@@ -25,6 +25,9 @@ nav {
 .jumbotron {
   background-color: #fce4ec;
 }
+.form-group {
+  max-width: 200px;
+}
 
 #cssImg {
   display: none;

@@ -50,7 +50,6 @@ $(document).ready(function(){
     }
 
     if (vJava > vPhp && vJava > vArt && vJava > vNothing) {
-      // alert("Java");
       $("#javaImg").show();
     }
 

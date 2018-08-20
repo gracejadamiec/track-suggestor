@@ -3,6 +3,10 @@ $(document).ready(function(){
   $("button").click(function(event) {
     event.preventDefault();
   $("form").hide("slow");
+  $("form").show();
+  $("img").hide();
+
+
 
   var vArt = 0
   var vJava = 0
@@ -22,43 +26,42 @@ $(document).ready(function(){
       vArt += 2
     }
 
-    if (java === "javaYes") {
+    else if (java === "javaYes") {
       vJava += 3
     }
 
-    if (php ==="phpYes") {
+    else if (php ==="phpYes") {
       vPhp =+ 1
     }
 
-    if (nothing === "programingLame"){
-      vNothing += 100
-    }
 
     if (vNothing > vArt && vNothing > vJava && vNothing > vPhp) {
       alert("Programing isn't lame! Try Retaking the Survey");
+
     }
 
 
-    if (vArt > vJava && vArt > vNothing && vArt > vPhp) {
+    else if (vArt > vJava && vArt > vNothing && vArt > vPhp) {
       $("#cssImg").show();
+    }
+
+    else if (vPhp > vNothing && vPhp > vArt && vPhp > vJava) {
+      $("#p").show();
 
     }
 
-    if (vPhp > vNothing && vPhp > vArt && vPhp > vJava) {
-      alert("You Should try Learning PHP!");
-      // $("#p").show(); I could NOT get this to work!
-    }
-
-    if (vJava > vPhp && vJava > vArt && vJava > vNothing) {
+    else if (vJava > vPhp && vJava > vArt && vJava > vNothing) {
       $("#javaImg").show();
+
     }
 
-    console.log(vArt);
-    console.log(vJava);
-    console.log(vPhp);
-    console.log(vNothing);
+    else if (nothing === "programingLame"){
+      vNothing += 100
+    }
+
 
     $('input[type="radio"]').prop('checked', false);
 
-    });
+
+  });
 });

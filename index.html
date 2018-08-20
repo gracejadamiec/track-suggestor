@@ -7,7 +7,6 @@
     <script src="js/scripts.js"></script>
     <title>Track Suggestor</title>
   </head>
-
   <body>
     <nav class="navbar">
       <span class="navbar-brand"></span>
@@ -16,9 +15,9 @@
       <h2>Which track at Epicodus is for you, lets find out!</h2>
     </div>
     <div class="container">
-      <form>
+      <form id="myForm">
         <h4>Question one</h4>
-          <p>If your main instrest to make sites and apps that feel and look well?</p>
+        <p>If your main instrest to make sites and apps that feel and look well?</p>
           <div class="radio">
             <label>
               <input type="radio" name="one" value="designYes"> Yes
@@ -30,7 +29,7 @@
             </label>
           </div>
         <h4>Question two</h4>
-          <p>Is your dream job at an enterprise-level company, as an Android developer, or in high-performance applications?</p>
+        <p>Is your dream job at an enterprise-level company, as an Android developer, or in high-performance applications?</p>
           <div class="radio">
             <label>
             <input type="radio" name="two" value="javaYes"> Yes
@@ -41,9 +40,8 @@
             <input type="radio" name="two" value="JavaNo"> No
             </label>
           </div>
-
         <h4>Question three</h4>
-          <p>Do you want to build websites for lots of clients, or maintain the security and stability of a huge complex of government?</p>
+        <p>Do you want to build websites for lots of clients, or maintain the security and stability of a huge complex of government?</p>
           <div class="radio">
             <label>
               <input type="radio" name="three" value="phpYes"> Yes
@@ -54,55 +52,50 @@
               <input class="no" type="radio" name="three" value="phpNo"> No
             </label>
           </div>
-
         <h4>Question Four</h4>
-          <p>Does programing intrest you?</p>
-          <div class="radio">
-            <label>
-              <input type="radio" name="four" value="programingLame">
-              No, it sounds lame.
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="four"  value="programmingAwesome">
-              Yes, it sounds awesome!
-            </label>
-          </div>
-
+        <p>Does programing intrest you?</p>
+        <div class="radio">
+          <label>
+            <input type="radio" name="four" value="programingLame">
+            No, it sounds lame.
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="four"  value="programmingAwesome">
+            Yes, it sounds awesome!
+          </label>
+        </div>
           <h4>Question Five</h4>
-            <p>I'd like to make a lot of money.</p>
-            <div class="radio">
-              <label>
-                <input type="radio" name="five" value="blank">
-                Heck Yeah!
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="five"  value="blank">
-                Nope.
-              </label>
-            </div>
-          <br>
-
-        <h4>One more thing!</h4>
-          <p>Please enter your name</p>
-          <div class="form-group">
-          <input id="input1" class="form-control" type="text">
+          <p>I'd like to make a lot of money.</p>
+          <div class="radio">
+            <label>
+              <input type="radio" name="five" value="blank">
+              Heck Yeah!
+            </label>
           </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="five"  value="blank">
+              Nope.
+            </label>
+          </div>
+          <br>
+        <h4>One more thing!</h4>
+        <p>Please enter your name</p>
+        <div class="form-group">
+          <input id="input1" class="form-control" type="text">
+        </div>
         </br>
         <br>
-
-        <button type="button" class="btn btn-default" id="submitSurvey">Trackify Me!</button>
+        <input type="reset" value="Reset">
       </form>
-
-      <div id="output">
-        <img id= cssImg src="img/css.jpg">
-        <img id= javaImg src="img/java.jpg">
-        <!-- <img id= p scr="img/php1.jpg"> -->
-      </div>
-
+        <div id="output">
+          <img id= cssImg src="img/css.jpg">
+          <img id= javaImg src="img/java.jpg">
+          <img id= p src="img/php1.jpg">
+          <button type="button" class="btn btn-default" id="submitSurvey">Trackify Me!</button>
+        </div>
       </div>
   </body>
 </html>
